@@ -30,6 +30,7 @@ const Home = () => {
           <TradingViewWidget
             scriptUrl={`${scriptUrl}timeline.js`}
             config={TOP_STORIES_WIDGET_CONFIG}
+            className="custom-chart"
             height={600}
           />
         </div>
